@@ -96,9 +96,10 @@ h1,h2,h3 {
 
 h1{
   font-size:32px;
+  margin-bottom:32px;
 }
 
 h2{
-  font-size:18px;
+  font-size:15px;
   font-family: var(--variablefont);
 }
