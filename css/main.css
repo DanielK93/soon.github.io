@@ -108,4 +108,5 @@ p{
   font-size:15px;
   font-family: var(--variablefont);
   margin-bottom: 8px;
+  line-height:1.4;
 }
