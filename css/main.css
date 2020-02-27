@@ -56,6 +56,12 @@ html {
 }
 
 @font-face {
+  font-family: "Telegraf-Regular";
+  src: url(../type/otf/Telegraf-Regular.otf);
+  font-style: normal;
+}
+
+@font-face {
   font-family: "SuisseIntlMono-Regular";
   src: url(../type/93tf/SuisseIntlMono-Regular-WebS.woff2);
   font-style: normal;
@@ -84,6 +90,7 @@ html {
   height: 100%;
   font-size: var(--fontSize);
   background-color:#000;
+  font-family: Telegraf-Regular;
 }
 
 
@@ -101,12 +108,12 @@ h1{
 
 h2{
   font-size:15px;
-  font-family: var(--variablefont);
+  font-family: Telegraf-Regular;
 }
 
 p{
   font-size:15px;
-  font-family: var(--variablefont);
+  font-family: Telegraf-Regular;
   margin-bottom: 8px;
   line-height:1.4;
 }
